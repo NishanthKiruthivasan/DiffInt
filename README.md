@@ -13,16 +13,13 @@ This project demonstrates how to perform **numerical differentiation and integra
 
 ### Numerical Differentiation
 Uses the **central difference formula**:
-\[
-f'(x) \approx \frac{f(x + h) - f(x - h)}{2h}
-\]
+$f'(x) \approx \frac{f(x + h) - f(x - h)}{2h}$
 
 ### Numerical Integration
 Uses the **trapezoidal rule**:
-\[
-\int_a^b f(x)\,dx \approx h \left[ \frac{f(a) + f(b)}{2} + \sum_{i=1}^{n-1} f(a + ih) \right]
-\]
-where \( h = \frac{b - a}{n} \)
+$\\int_a^b f(x) dx \approx h \left[ \frac{f(a) + f(b)}{2} + \sum_{i=1}^{n-1} f(a + ih) \right]$
+
+where $\( h = \frac{b - a}{n} \)$
 
 ## 🧾 Code Overview
 
